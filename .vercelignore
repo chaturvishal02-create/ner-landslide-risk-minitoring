@@ -1,0 +1,5 @@
+backend
+backend/**
+*.py
+*.db
+*.pkl

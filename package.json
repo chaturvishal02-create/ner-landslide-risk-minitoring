@@ -1,0 +1,8 @@
+{
+  "name": "ner-landslide-risk-monitoring",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend install && npm --prefix frontend run build"
+  }
+}
