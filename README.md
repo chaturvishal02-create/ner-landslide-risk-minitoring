@@ -1,0 +1,1 @@
+# ner-landslide-risk-minitoring
