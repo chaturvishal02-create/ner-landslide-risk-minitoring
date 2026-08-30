@@ -1,0 +1,20 @@
+{
+  "accuracy_synthetic": 0.985,
+  "n_training_samples": 1600,
+  "n_test_samples": 400,
+  "features": [
+    "rainfall",
+    "slope",
+    "elevation",
+    "soil",
+    "land_use",
+    "historical_landslide"
+  ],
+  "classes": [
+    "LOW",
+    "MODERATE",
+    "HIGH",
+    "CRITICAL"
+  ],
+  "note": "DEMO/SYNTHETIC \u2014 not validated on real operational data"
+}

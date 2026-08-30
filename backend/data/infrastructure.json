@@ -1,0 +1,154 @@
+{
+  "infrastructure": [
+    {
+      "id": "infra_001",
+      "location_id": "loc_001",
+      "name": "NH-10 (Siliguri-Gangtok Highway)",
+      "type": "Road",
+      "distance_km": 1.2,
+      "vulnerability": "HIGH",
+      "population_affected": 45000,
+      "description": "Major national highway connecting Gangtok to mainland"
+    },
+    {
+      "id": "infra_002",
+      "location_id": "loc_001",
+      "name": "Gangtok District Hospital",
+      "type": "Hospital",
+      "distance_km": 0.8,
+      "vulnerability": "MODERATE",
+      "population_affected": 80000,
+      "description": "Primary healthcare facility for Gangtok district"
+    },
+    {
+      "id": "infra_003",
+      "location_id": "loc_001",
+      "name": "Rumtek Village",
+      "type": "Village",
+      "distance_km": 3.5,
+      "vulnerability": "HIGH",
+      "population_affected": 2500,
+      "description": "Hillside village near Rumtek Monastery"
+    },
+    {
+      "id": "infra_004",
+      "location_id": "loc_002",
+      "name": "Shillong-Guwahati Highway",
+      "type": "Road",
+      "distance_km": 2.1,
+      "vulnerability": "HIGH",
+      "population_affected": 120000,
+      "description": "Main road connecting Shillong to Guwahati"
+    },
+    {
+      "id": "infra_005",
+      "location_id": "loc_002",
+      "name": "NEIGRIHMS Medical College",
+      "type": "Hospital",
+      "distance_km": 1.5,
+      "vulnerability": "LOW",
+      "population_affected": 200000,
+      "description": "Premier medical institution of NER"
+    },
+    {
+      "id": "infra_006",
+      "location_id": "loc_003",
+      "name": "Aizawl-Lunglei Road",
+      "type": "Road",
+      "distance_km": 0.9,
+      "vulnerability": "VERY HIGH",
+      "population_affected": 35000,
+      "description": "Key road along steep terrain"
+    },
+    {
+      "id": "infra_007",
+      "location_id": "loc_003",
+      "name": "Kulikawn Bridge",
+      "type": "Bridge",
+      "distance_km": 1.4,
+      "vulnerability": "HIGH",
+      "population_affected": 25000,
+      "description": "Critical bridge over Tlawng river"
+    },
+    {
+      "id": "infra_008",
+      "location_id": "loc_003",
+      "name": "Durtlang Village",
+      "type": "Village",
+      "distance_km": 2.2,
+      "vulnerability": "VERY HIGH",
+      "population_affected": 3800,
+      "description": "Residential area on steep hillside"
+    },
+    {
+      "id": "infra_009",
+      "location_id": "loc_009",
+      "name": "Tawang-Bomdila Highway",
+      "type": "Road",
+      "distance_km": 1.8,
+      "vulnerability": "CRITICAL",
+      "population_affected": 18000,
+      "description": "Strategic highway in high-altitude terrain"
+    },
+    {
+      "id": "infra_010",
+      "location_id": "loc_009",
+      "name": "Sela Pass Bridge",
+      "type": "Bridge",
+      "distance_km": 2.5,
+      "vulnerability": "VERY HIGH",
+      "population_affected": 12000,
+      "description": "High-altitude bridge subject to frequent blockages"
+    },
+    {
+      "id": "infra_011",
+      "location_id": "loc_010",
+      "name": "Cherrapunji-Shillong Road",
+      "type": "Road",
+      "distance_km": 0.6,
+      "vulnerability": "VERY HIGH",
+      "population_affected": 28000,
+      "description": "Road through world's wettest region"
+    },
+    {
+      "id": "infra_012",
+      "location_id": "loc_010",
+      "name": "Sohra Primary School",
+      "type": "School",
+      "distance_km": 1.0,
+      "vulnerability": "HIGH",
+      "population_affected": 850,
+      "description": "Primary school near landslide-prone slopes"
+    },
+    {
+      "id": "infra_013",
+      "location_id": "loc_012",
+      "name": "Mangan-Chungthang Road",
+      "type": "Road",
+      "distance_km": 0.5,
+      "vulnerability": "CRITICAL",
+      "population_affected": 22000,
+      "description": "Critical road in Teesta valley flood zone"
+    },
+    {
+      "id": "infra_014",
+      "location_id": "loc_012",
+      "name": "Dikchu Bridge",
+      "type": "Bridge",
+      "distance_km": 1.1,
+      "vulnerability": "CRITICAL",
+      "population_affected": 15000,
+      "description": "Bridge over swollen Teesta river"
+    },
+    {
+      "id": "infra_015",
+      "location_id": "loc_012",
+      "name": "Mangan PHC Hospital",
+      "type": "Hospital",
+      "distance_km": 0.7,
+      "vulnerability": "VERY HIGH",
+      "population_affected": 40000,
+      "description": "Primary health centre serving North Sikkim"
+    }
+  ]
+}

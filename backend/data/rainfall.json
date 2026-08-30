@@ -1,0 +1,148 @@
+{
+  "rainfall_data": {
+    "loc_001": {
+      "location_id": "loc_001",
+      "location_name": "Gangtok",
+      "current_rainfall": 45,
+      "rainfall_6h": 12,
+      "rainfall_24h": 45,
+      "rainfall_7d": 210,
+      "trend": "increasing",
+      "hourly": [2,3,4,3,5,6,4,5,7,6,5,4,3,2,3,4,5,6,5,4,3,4,5,6],
+      "daily": [25,30,35,40,38,42,45],
+      "days": ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
+    },
+    "loc_002": {
+      "location_id": "loc_002",
+      "location_name": "Shillong",
+      "current_rainfall": 60,
+      "rainfall_6h": 18,
+      "rainfall_24h": 60,
+      "rainfall_7d": 280,
+      "trend": "stable",
+      "hourly": [4,5,6,5,7,8,6,7,9,8,7,6,5,4,5,6,7,8,7,6,5,6,7,8],
+      "daily": [35,40,45,50,48,52,60],
+      "days": ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
+    },
+    "loc_003": {
+      "location_id": "loc_003",
+      "location_name": "Aizawl",
+      "current_rainfall": 55,
+      "rainfall_6h": 14,
+      "rainfall_24h": 55,
+      "rainfall_7d": 250,
+      "trend": "increasing",
+      "hourly": [3,4,5,4,6,7,5,6,8,7,6,5,4,3,4,5,6,7,6,5,4,5,6,7],
+      "daily": [30,35,38,42,45,48,55],
+      "days": ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
+    },
+    "loc_004": {
+      "location_id": "loc_004",
+      "location_name": "Kohima",
+      "current_rainfall": 38,
+      "rainfall_6h": 8,
+      "rainfall_24h": 38,
+      "rainfall_7d": 180,
+      "trend": "stable",
+      "hourly": [2,2,3,3,4,4,3,4,5,5,4,4,3,3,3,4,4,5,4,4,3,3,4,4],
+      "daily": [22,25,28,30,32,34,38],
+      "days": ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
+    },
+    "loc_005": {
+      "location_id": "loc_005",
+      "location_name": "Imphal",
+      "current_rainfall": 30,
+      "rainfall_6h": 6,
+      "rainfall_24h": 30,
+      "rainfall_7d": 145,
+      "trend": "decreasing",
+      "hourly": [2,2,2,3,3,3,3,3,4,4,3,3,3,2,2,3,3,3,3,2,2,2,3,3],
+      "daily": [20,22,24,26,28,28,30],
+      "days": ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
+    },
+    "loc_006": {
+      "location_id": "loc_006",
+      "location_name": "Itanagar",
+      "current_rainfall": 70,
+      "rainfall_6h": 20,
+      "rainfall_24h": 70,
+      "rainfall_7d": 320,
+      "trend": "increasing",
+      "hourly": [5,6,7,6,8,9,7,8,10,9,8,7,6,5,6,7,8,9,8,7,6,7,8,9],
+      "daily": [42,48,52,58,60,64,70],
+      "days": ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
+    },
+    "loc_007": {
+      "location_id": "loc_007",
+      "location_name": "Guwahati",
+      "current_rainfall": 42,
+      "rainfall_6h": 10,
+      "rainfall_24h": 42,
+      "rainfall_7d": 195,
+      "trend": "stable",
+      "hourly": [2,3,4,3,4,5,4,4,5,5,4,4,3,3,3,4,4,5,4,3,3,3,4,4],
+      "daily": [26,28,32,34,36,38,42],
+      "days": ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
+    },
+    "loc_008": {
+      "location_id": "loc_008",
+      "location_name": "Agartala",
+      "current_rainfall": 35,
+      "rainfall_6h": 7,
+      "rainfall_24h": 35,
+      "rainfall_7d": 165,
+      "trend": "stable",
+      "hourly": [2,2,3,2,3,4,3,3,4,4,3,3,2,2,2,3,3,4,3,3,2,2,3,3],
+      "daily": [22,24,26,28,30,32,35],
+      "days": ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
+    },
+    "loc_009": {
+      "location_id": "loc_009",
+      "location_name": "Tawang",
+      "current_rainfall": 80,
+      "rainfall_6h": 22,
+      "rainfall_24h": 80,
+      "rainfall_7d": 360,
+      "trend": "increasing",
+      "hourly": [5,6,8,7,9,10,8,9,11,10,9,8,7,6,7,8,9,10,9,8,7,8,9,10],
+      "daily": [48,55,60,65,68,72,80],
+      "days": ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
+    },
+    "loc_010": {
+      "location_id": "loc_010",
+      "location_name": "Cherrapunji",
+      "current_rainfall": 120,
+      "rainfall_6h": 35,
+      "rainfall_24h": 120,
+      "rainfall_7d": 540,
+      "trend": "increasing",
+      "hourly": [8,9,11,10,13,15,12,13,16,15,14,13,11,10,11,12,14,15,14,13,11,12,14,15],
+      "daily": [75,88,95,102,108,112,120],
+      "days": ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
+    },
+    "loc_011": {
+      "location_id": "loc_011",
+      "location_name": "Lunglei",
+      "current_rainfall": 65,
+      "rainfall_6h": 17,
+      "rainfall_24h": 65,
+      "rainfall_7d": 295,
+      "trend": "increasing",
+      "hourly": [4,5,6,5,7,8,6,7,9,8,7,6,5,4,5,6,7,8,7,6,5,6,7,8],
+      "daily": [40,45,50,54,57,60,65],
+      "days": ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
+    },
+    "loc_012": {
+      "location_id": "loc_012",
+      "location_name": "Mangan",
+      "current_rainfall": 95,
+      "rainfall_6h": 28,
+      "rainfall_24h": 95,
+      "rainfall_7d": 425,
+      "trend": "increasing",
+      "hourly": [6,7,9,8,11,13,10,11,14,13,12,11,9,8,9,10,12,13,12,11,9,10,12,13],
+      "daily": [58,68,75,80,84,88,95],
+      "days": ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
+    }
+  }
+}
