@@ -1,0 +1,13 @@
+services:
+  # FastAPI Backend Service
+  - type: web
+    name: landslide-ai-backend
+    env: python
+    region: singapore
+    plan: free
+    rootDir: backend
+    buildCommand: "pip install -r requirements.txt && python ml/train_model.py"
+    startCommand: "uvicorn main:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9

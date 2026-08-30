@@ -19,7 +19,7 @@ const routeTitles = {
   '/map': 'GIS Risk Map — North Eastern Region',
   '/prediction': 'AI Landslide Risk Prediction',
   '/rainfall': 'Rainfall Monitoring Station',
-  '/historical': 'Historical Landslide & Weather Analytics',
+  '/historical': 'Historical Risk Intelligence & Incident Telemetry',
   '/infrastructure': 'Infrastructure Vulnerability Assessment',
   '/alerts': 'Early Warning & Alert Center',
 };

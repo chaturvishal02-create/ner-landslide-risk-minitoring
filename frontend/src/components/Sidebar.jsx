@@ -9,7 +9,7 @@ const navItems = [
   { to: '/map', icon: Map, label: 'Risk Map' },
   { to: '/prediction', icon: BrainCircuit, label: 'AI Prediction' },
   { to: '/rainfall', icon: CloudRain, label: 'Rainfall' },
-  { to: '/historical', icon: BarChart3, label: 'Historical Analysis' },
+  { to: '/historical', icon: BarChart3, label: 'Historical Intelligence' },
   { to: '/infrastructure', icon: Building2, label: 'Infrastructure' },
   { to: '/alerts', icon: Bell, label: 'Alert Center' },
 ];
