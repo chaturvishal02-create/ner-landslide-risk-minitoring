@@ -27,13 +27,19 @@ export default function DashboardPage() {
       setError(null);
     } catch (err) {
       setError('Failed to load dashboard data. Is the backend running?');
-      toast('Backend connection failed', 'error');
+      // Only show the toast on the first failure, not on every retry
+      if (!error) toast('Backend connection failed', 'error');
     } finally {
       setLoading(false);
     }
   };
 
-  useEffect(() => { load(); const t = setInterval(load, 30000); return () => clearInterval(t); }, []);
+  useEffect(() => {
+    load();
+    // Poll every 30s for fresh data; auto-retry recovers from backend restarts
+    const t = setInterval(load, 30000);
+    return () => clearInterval(t);
+  }, []);
 
   if (loading) return (
     <div className="loading-container">

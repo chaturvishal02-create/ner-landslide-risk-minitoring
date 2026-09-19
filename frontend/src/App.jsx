@@ -41,9 +41,10 @@ function MainLayout({ user, onLogout }) {
       }
     }
     checkAlerts();
+    // Poll every 15s — no dependency on location so we don't spawn a new interval on every page nav
     const interval = setInterval(checkAlerts, 15000);
     return () => clearInterval(interval);
-  }, [location.pathname]);
+  }, []);
 
   return (
     <div className="app-layout">
